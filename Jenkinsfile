@@ -40,6 +40,7 @@ pipeline {
             }
         }
 	stage('Just wondering') {
+		sh 'echo Justwondering'
 	}
 
     }
