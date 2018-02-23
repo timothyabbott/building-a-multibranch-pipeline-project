@@ -39,9 +39,5 @@ pipeline {
                 sh './jenkins/scripts/kill.sh'
             }
         }
-	stage('Just wondering') {
-		sh 'echo Justwondering'
-	}
-
     }
 }
